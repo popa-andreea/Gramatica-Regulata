@@ -30,7 +30,7 @@ Functii:
 -functia afiseaza pe ecran productiile gramaticii regulate.
 
 
-3.void generareCuvinte(productie *gramaticaRegulata,int numarProductii, int lungimeMaxima, string *cuvant, int contorCuvant,string neterminala)
+3.void generareCuv(productie *gramaticaRegulata,int numarProductii, int lungimeMaxima, string *cuvant, int contorCuvant,string neterminala)
 
 -functia afiseaza lista cuvintelor de lungime maxima recunoscute de gramatica;
 
