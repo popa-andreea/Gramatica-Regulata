@@ -1,4 +1,4 @@
-# Gramatica-Regulata
+# Gramatica Regulata
 
 Nume:Popa Andreea-Denisa
 
