@@ -35,3 +35,9 @@ Functii:
 -functia afiseaza lista cuvintelor de lungime maxima recunoscute de gramatica;
 
 -functia genereaza cuvintele de dimensiune lungimeMaxima, verifica pentru fiecare cuvant daca este recunoscut de gramatica si daca este recunoscut,il afiseaza pe ecran.
+
+4.bool cuvantAcceptat(productie *gramaticaRegulata, int numarProductii, int neterminala)
+
+-functia verifica daca cuvantul este acceptat de gramatica;
+
+-functia returneaza true daca cuvantul este acceptat si false, altfel.
