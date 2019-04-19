@@ -11,6 +11,7 @@ Output: Lista cuvintelor de dimensiune n recunoscute de gramatica.
 Observatii:
 
 Simbolul "?" ii corespunde simbolului lambda.
+
 Fiecare productie este de forma: neterminala1 -> terminala neterminala2 sau neterminala1->terminala. Atunci cand se neterminala2 nu exista, aceste este inlocuit cu lambda.
 
 Functii:
