@@ -18,15 +18,20 @@ Functii:
 
 1.void citireGramaticaRegulata(productie *&gramaticaRegulata, int &numarProductii)
 
--functia citeste din fisierul "gramatica.txt" elementele vectorului care reprezinta productiile gramaticii regulate;                    
+-functia citeste din fisierul "gramatica.txt" elementele vectorului care reprezinta productiile gramaticii regulate;
+
 -fiecare element al vectorului este construit din neterminala1,terminala si neterminala2;
+
 -functia inlocuieste neterminala2 cu lambda,in cazul in care neterminala2 lipseste.
+
 
 2.void afisareGramaticaRegulata(productie *gramaticaRegulata, int numarProductii)
 
 -functia afiseaza pe ecran productiile gramaticii regulate.
 
+
 3.void generareCuvinte(productie *gramaticaRegulata,int numarProductii, int lungimeMaxima, string *cuvant, int contorCuvant,string neterminala)
 
 -functia afiseaza lista cuvintelor de lungime maxima recunoscute de gramatica;
+
 -functia genereaza cuvintele de dimensiune lungimeMaxima, verifica pentru fiecare cuvant daca este recunoscut de gramatica si daca este recunoscut,il afiseaza pe ecran.
